@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #243047;
+    background-color: #f5f7fb;
+    line-height: 1.7;
+}
+
+/* Navigation */
+.navbar {
+    padding: 16px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    margin-left: 12px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #7db8ff;
+}
+
+/* Hero Section */
+.hero {
+    padding: 110px 20px;
+    color: white;
+    background: linear-gradient(135deg, #14213d, #315b96);
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: bold;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    color: #e2eaff;
+}
+
+.btn-primary {
+    padding: 12px 26px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fca311;
+    color: #14213d;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ffba42;
+    color: #14213d;
+}
+
+/* Section Headings */
+section h2 {
+    margin-bottom: 22px;
+    color: #14213d;
+    font-weight: bold;
+}
+
+section {
+    scroll-margin-top: 25px;
+}
+
+/* Skills */
+.skill {
+    height: 100%;
+    padding: 18px;
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 14px rgba(20, 33, 61, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects */
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(20, 33, 61, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #315b96;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    padding-bottom: 60px;
+}
+
+/* Footer */
+footer {
+    background-color: #14213d !important;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .hero {
+        padding: 75px 15px;
+    }
+
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+}
